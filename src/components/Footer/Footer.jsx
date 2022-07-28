@@ -58,7 +58,9 @@ const Footer = () => {
         </div>
         <div className='appsContainer'>
           <h3 style={{ fontWeight: 'bold', fontSize: '18px' }}>Libro de reclamaciones</h3>
-          <img src="https://proyecto-acg.s3.amazonaws.com/favicon/libro_reclamaciones.png" alt="" />
+          <a href='https://reclamos.servicios.gob.pe/?institution_id=269' target='_blank' rel="noreferrer">
+            <img src="https://proyecto-acg.s3.amazonaws.com/favicon/libro_reclamaciones.png" alt="libro reclamaciones" />
+          </a>
         </div>
       </div>
     </div>
