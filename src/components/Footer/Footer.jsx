@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
         <div className='appsContainer'>
           <h3 style={{ fontWeight: 'bold', fontSize: '18px' }}>Libro de reclamaciones</h3>
-          <img src="http://www.untels.edu.pe/images/imagenWeb/libro_reclamaciones.png" alt="" />
+          <img src="https://proyecto-acg.s3.amazonaws.com/favicon/libro_reclamaciones.png" alt="" />
         </div>
       </div>
     </div>
