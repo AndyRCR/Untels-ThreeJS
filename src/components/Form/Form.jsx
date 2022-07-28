@@ -47,7 +47,7 @@ const Form = () => {
     formValue.email.telefono !== '' &&
     formValue.email.email !== '') {
         const col = collection(db, 'correos')
-        const order = await addDoc(col, formValue)
+        await addDoc(col, formValue)
         emailjs.send('service_4gfz4ub', 'template_lkdxwqs', {...formValue})
             .then(function (response) {
                 Swal.fire(
