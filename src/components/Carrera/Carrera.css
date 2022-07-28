@@ -1,0 +1,62 @@
+.carrera{
+    display: flex;
+    width: 90%;
+    color: white;
+    margin: 40px 0;
+}
+
+.carrera h2{
+    text-align: center;
+}
+
+.carrera .carreraItemContainer{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrera .carreraItem{
+    background-color: rgba(54, 66, 140, 0.8);
+    border-radius: 8px;
+    width: 80%;
+    text-align: justify;
+    padding: 30px;
+    height: 100%;
+}
+
+.carrera .description{
+    padding: 30px 30px 20px;
+}
+
+.carrera h3,
+.carrera a,
+.carrera .perfil{
+    margin: 10px 30px;
+}
+
+.carrera a{
+    color: #C9A426;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.carrera .enlace{margin-top: 20px;}
+
+.carrera .image{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrera img{
+    border-radius: 20px;
+    transition: 0.4s;
+    height: 400px;
+    /* width: 100%; */
+}
+
+.carrera img:hover{
+    transform: scale(1.05);
+}

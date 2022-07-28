@@ -1,0 +1,36 @@
+.banner{
+    /* position: fixed; */
+    width: 100%;
+    height: 100vh;
+    z-index: -10;
+}
+
+.bannerTransparency{
+    position: absolute;
+    right: 0;
+    width: 45%;
+    height: 0;
+    border-right: 100% solid transparent;
+    border-left: 300px solid transparent;
+    border-bottom: 100vh solid rgba(0, 0, 0, 0.5);
+}
+
+.bannerSloganContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 50%;
+    height: 0;
+    border-right: 100% solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 25vh solid #223B8F;
+    color: white;
+}
+
+.bannerSloganContainer p{
+    margin-left: 40px;
+    margin-top: 20px;
+}

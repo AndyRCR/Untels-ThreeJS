@@ -1,0 +1,26 @@
+.sectionContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carrerasContainer{
+    margin: 40px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carrerasContainer h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-bottom: 5px solid #C9A426;
+}
+
+.formContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
