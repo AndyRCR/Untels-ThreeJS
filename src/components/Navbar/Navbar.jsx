@@ -29,8 +29,8 @@ const Navbar = () => {
         <div className="navbar2">
             <div className="logoContainer">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Untels_02.png" alt="logo untels"/>
-                <svg style={{marginLeft: '15px'}} xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="400.832"
-                    height="105.616" viewBox="0 0 435.832 105.616">
+                <svg
+                xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 435.832 105.616">
                     <defs>
                         <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%"
                             viewBox="0 0 1011 246">

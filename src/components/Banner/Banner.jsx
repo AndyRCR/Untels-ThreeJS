@@ -8,7 +8,7 @@ const Banner = () => {
 
         </div>
         <div className="bannerSloganContainer">
-            <h1 style={{marginTop: '230px', marginLeft: '40px'}}>
+            <h1>
                 Formando profesionales integrales para<br/>el desarrollo y crecimiento del Perú
             </h1>
             <p>
