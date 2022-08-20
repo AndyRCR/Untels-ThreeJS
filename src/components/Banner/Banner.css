@@ -93,4 +93,31 @@
     .banner{
         text-align: center;
     }
+
+    .banner h1, .banner p{
+        margin-left: 0;
+    }
+    .banner h1{
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 650px){
+    .banner h1{
+        font-size: 22px;
+    }
+
+    .banner p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 425px){
+    .banner h1{
+        font-size: 18px;
+    }
+
+    .banner p{
+        font-size: 12px;
+    }
 }

@@ -52,11 +52,6 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li>
-                        <a href='http://www.untels.edu.pe/vicerrectoradodeinvestigacion/' target="_blank" rel="noreferrer">
-                        VICEPRESIDENCIA<br/>DE INVESTIGACIÓN
-                        </a>
-                    </li>
-                    <li>
                         <a href='http://www.untels.edu.pe/03Admision.aspx' target="_blank" rel="noreferrer">
                         ADMISIÓN
                         </a>

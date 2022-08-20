@@ -28,7 +28,7 @@ const Footer = () => {
                 </div>
                 <div className="socialTitle">
                   Facebook
-                  <span>Universidad Nacional Tecnológica<br/>de Lima Sur</span>
+                  <span>Untels</span>
                 </div>
               </a>
             </li>

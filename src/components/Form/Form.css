@@ -55,3 +55,23 @@
     background-color: #223B8F !important;
 }
 
+@media (max-width: 1300px){
+    .form{
+        flex-direction: column;
+    }
+
+    .form .formItems,
+    .form .formImage{
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px){
+    .form .formItem{
+        width: 100%;
+    }
+
+    .form .inputForm {
+        width: 100%;
+    }
+}

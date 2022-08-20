@@ -60,3 +60,39 @@
 .carrera img:hover{
     transform: scale(1.05);
 }
+
+@media (max-width: 1100px){
+    .carrera .carreraItem{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1000px){
+    .carrera{
+        align-items: center;
+        flex-direction: column-reverse !important;
+    }
+
+    .carrera .carreraItem{
+        font-size: 12px;
+    }
+
+    .carrera .carreraItemContainer{
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px){
+    .carrera .carreraItem{
+        width: 100%;
+        padding: 30px 10px;
+    }
+
+    .carrera .description {
+        padding: 30px 10px 20px;
+    }
+
+    .carrera h3, .carrera a, .carrera .perfil {
+        margin: 10px 10px;
+    }
+}

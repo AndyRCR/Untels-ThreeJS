@@ -100,7 +100,7 @@ const MainCanvas = () => {
     window.addEventListener('scroll', (e)=>{
         postScrollHeight = e.composedPath()[1].scrollY
         if(prevScrollHeight < postScrollHeight ){
-            if(window.scrollY > 850 && !animation1){
+            if(window.scrollY > document.body.scrollHeight/6 && !animation1){
                 animation1 = true
                 tl.to(camera.position, {
                     x: -4,
@@ -117,7 +117,7 @@ const MainCanvas = () => {
                 })
             }
         
-            if(window.scrollY > 1700 && !animation2){
+            if(window.scrollY > 2*(document.body.scrollHeight/6) && !animation2){
                 animation2 = true
                 tl.to(camera.position,{
                     x: -25,
@@ -135,7 +135,7 @@ const MainCanvas = () => {
                 })
             }
         
-            if(window.scrollY > 2550 && !animation3){
+            if(window.scrollY > 3*(document.body.scrollHeight/6) && !animation3){
                 animation3 = true
                 tl.to(camera.position,{
                     x: -13.7,
@@ -154,7 +154,7 @@ const MainCanvas = () => {
                 })
             }
 
-            if(window.scrollY > 3400 && !animation4){
+            if(window.scrollY > 4*(document.body.scrollHeight/6) && !animation4){
                 animation4 = true
                 tl.to(camera.position,{
                     x: 1.7,
@@ -187,7 +187,7 @@ const MainCanvas = () => {
                 })
             }
         }else{    
-            if(window.scrollY < 2720 && animation3){
+            if(window.scrollY < 4*(document.body.scrollHeight/7) && animation3){
                 animation3 = false
                 tl.to(camera.position,{
                     x: 1.7,
@@ -220,7 +220,7 @@ const MainCanvas = () => {
                 })
             }
 
-            if(window.scrollY < 2040 && animation2){
+            if(window.scrollY < 3*(document.body.scrollHeight/7) && animation2){
                 animation2= false
                 tl.to(camera.position,{
                     x: -25,
@@ -238,7 +238,7 @@ const MainCanvas = () => {
                 })
             }
 
-            if(window.scrollY < 1360 && animation1){
+            if(window.scrollY < 2*(document.body.scrollHeight/7) && animation1){
                 animation1 = false
                 tl.to(camera.position, {
                     x: -15.6,
@@ -257,7 +257,7 @@ const MainCanvas = () => {
                 })
             }
 
-            if(window.scrollY < 680 && animation4){
+            if(window.scrollY < document.body.scrollHeight/7 && animation4){
                 animation4 = false
                 tl.to(camera.position, {
                     x: -4,
