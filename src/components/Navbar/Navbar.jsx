@@ -28,7 +28,7 @@ const Navbar = () => {
         </div>
         <div className="navbar2">
             <div className="logoContainer">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Untels_02.png" alt="logo untels"/>
+                <img src="https://proyecto-acg.s3.amazonaws.com/untels_logo.png" alt="logo untels"/>
                 <svg
                 xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 435.832 105.616">
                     <defs>
